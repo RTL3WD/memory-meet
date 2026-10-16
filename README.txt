@@ -1,8 +1,8 @@
 MEET MEMORY — private meeting recorder + local Whisper transcription
 =====================================================================
 
-Runs entirely in Google Chrome on this Mac. Nothing is uploaded: the page can only talk to
-http://localhost, and the Whisper model (Small, English) runs from this folder.
+Runs entirely in Google Chrome locally. Nothing is uploaded: the page can only talk to
+http://localhost, and the Whisper model (Small, English) runs from this project.
 
 MODEL WEIGHTS
   The .onnx weight files are not in git (GitHub rejects files over 100 MB).
@@ -22,7 +22,7 @@ START
   To stop: press Ctrl+C in that window.
 
 USE
-  1. Connect AirPods, click "Detect microphones", pick your mic.
+  1. Click "Detect microphones", pick your mic.
   2. Click "Start recording". In Chrome's share picker choose Entire Screen (or the meeting tab)
      and turn on "Share system audio" / "Share tab audio". Only audio is saved, never video.
   3. Click "Stop & transcribe" (or Chrome's "Stop sharing"). Transcription starts automatically.
