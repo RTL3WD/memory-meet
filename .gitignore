@@ -1,0 +1,2 @@
+# Whisper ONNX weights. GitHub rejects files over 100 MB.
+app/models/**/*.onnx
